@@ -1,0 +1,16 @@
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    justify-items: center;
+}
+.gallery img{
+    width: 90%;
+    border: 2px dotted blue;
+    padding: 10px;
+}
+.last{
+    grid-column: 1/ span 2;
+}
