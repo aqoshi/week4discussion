@@ -50,11 +50,11 @@ body{
     justify-items: center;
     align-items: stretch;
     border: dashed;
-    
+
   }
 
 .gallery img {
-    width: 100%;
+    width: 80%;
     border: dashed;
     align-content: center;
 
@@ -63,6 +63,6 @@ body{
 
 }
 
-.gallery .imgl {
-    grid-column: 1 / span3;
+.gallery img:last-child {
+    grid-column: 1 / span 3;
 }
